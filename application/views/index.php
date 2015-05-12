@@ -48,7 +48,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!--<a class="navbar-brand" href="#">Project name</a>-->
-            <img src="image/logo" height="50" width="250">
+            <a href="/home"><img src="image/logo" height="50" width="250"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

@@ -14,6 +14,6 @@ class Image extends CI_Controller {
     public function images()
     {
         //echo $img_name;
-        $this->load->view('/image/logo.jpg');
+        $this->load->view('/image/logo1.png');
     }
 }
