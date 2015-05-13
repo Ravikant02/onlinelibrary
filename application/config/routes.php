@@ -53,4 +53,6 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['first'] = 'first/one';
-$route['image/(:any)'] = 'image/images';
+$route['image/(:any)/(:any)/(:any)'] = 'image/images/$1';
+$route['about'] = 'about';
+$route['contact'] = 'contact';

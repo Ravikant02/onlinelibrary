@@ -11,9 +11,16 @@ class Image extends CI_Controller {
          parent::__construct();
          $this->load->helper('url');
      }*/
-    public function images()
+    public function images($image_name)
     {
-        //echo $img_name;
+        echo $image_name;
+        $img_name = explode('.', $image_name);
+        $image_variable = "/image/$img_name[0].$img_name[1]";
+        echo $image_variable;
+        $this->load->view($image_variable);
+    }
+    public function logo_loader()
+    {
         $this->load->view('/image/logo1.png');
     }
 }
